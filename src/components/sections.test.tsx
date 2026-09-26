@@ -12,7 +12,7 @@ describe("commercial sections", () => {
   it("renders all five birds with their approved image paths", () => {
     render(<AvesSection />)
     expect(screen.getAllByRole("article")).toHaveLength(5)
-    expect(screen.getByRole("img", { name: /galinha caipira/i })).toHaveAttribute("src", "/assets/galinha-caipira.jpg")
+    expect(screen.getByRole("img", { name: /galinha caipira/i })).toHaveAttribute("src", "./assets/galinha-caipira.jpg")
   })
 
   it("highlights only the word assados in the Sunday heading", () => {

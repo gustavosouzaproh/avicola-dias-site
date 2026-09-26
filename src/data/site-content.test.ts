@@ -10,7 +10,7 @@ describe("site content", () => {
       "Galinha matriz",
       "Galo",
     ])
-    expect(birds.every((bird) => bird.image.startsWith("/assets/"))).toBe(true)
+    expect(birds.every((bird) => bird.image.startsWith("./assets/"))).toBe(true)
   })
 
   it("keeps contact display values aligned with link destinations", () => {

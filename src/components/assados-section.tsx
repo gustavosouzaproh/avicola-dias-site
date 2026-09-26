@@ -7,7 +7,7 @@ export function AssadosSection() {
       <div className="mx-auto grid max-w-7xl overflow-hidden rounded-3xl border border-foreground/10 bg-bg-100 shadow-[0_30px_80px_rgba(0,0,0,.28)] lg:grid-cols-[.88fr_1.12fr]">
         <div className="relative min-h-[360px] lg:min-h-[620px]">
           <img
-            src="/assets/assados-domingo.webp"
+            src="./assets/assados-domingo.webp"
             alt="Frangos, carnes e linguiças assando na churrasqueira da Avícola Dias"
             loading="lazy"
             className="absolute inset-0 size-full object-cover"

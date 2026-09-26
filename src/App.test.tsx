@@ -25,6 +25,6 @@ describe("App", () => {
     const { container } = render(<App />)
     const images = [...container.querySelectorAll("img")]
     expect(images.length).toBeGreaterThanOrEqual(10)
-    expect(images.every((image) => image.getAttribute("src")?.startsWith("/assets/"))).toBe(true)
+    expect(images.every((image) => image.getAttribute("src")?.startsWith("./assets/"))).toBe(true)
   })
 })

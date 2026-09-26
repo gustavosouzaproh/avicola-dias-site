@@ -57,11 +57,11 @@ export const navLinks = [
 ] satisfies readonly NavLink[]
 
 export const birds = [
-  { name: "Galinha caipira", image: "/assets/galinha-caipira.jpg", alt: "Galinha caipira de plumagem marrom" },
-  { name: "Frango branco", image: "/assets/frango-branco.jpg", alt: "Frango branco" },
-  { name: "Frango carijó", image: "/assets/frango-carijo.jpg", alt: "Frango carijó de plumagem preta e branca" },
-  { name: "Galinha matriz", image: "/assets/galinha-matriz.jpg", alt: "Galinha matriz branca" },
-  { name: "Galo", image: "/assets/galo.jpg", alt: "Galo de plumagem branca e preta" },
+  { name: "Galinha caipira", image: "./assets/galinha-caipira.jpg", alt: "Galinha caipira de plumagem marrom" },
+  { name: "Frango branco", image: "./assets/frango-branco.jpg", alt: "Frango branco" },
+  { name: "Frango carijó", image: "./assets/frango-carijo.jpg", alt: "Frango carijó de plumagem preta e branca" },
+  { name: "Galinha matriz", image: "./assets/galinha-matriz.jpg", alt: "Galinha matriz branca" },
+  { name: "Galo", image: "./assets/galo.jpg", alt: "Galo de plumagem branca e preta" },
 ] satisfies readonly Bird[]
 
 export const roastItems = [
@@ -98,7 +98,7 @@ export const stores = [
   {
     city: "Itapevi",
     name: "Avícola Dias Itapevi",
-    image: "/assets/loja-itapevi.jpg",
+    image: "./assets/loja-itapevi.jpg",
     imageAlt: "Fachada da Avícola Dias em Itapevi",
     addressLines: [
       "Rod. Engenheiro Renê Benedito da Silva, 2180",
@@ -113,7 +113,7 @@ export const stores = [
   {
     city: "Jandira",
     name: "Avícola Dias Jandira",
-    image: "/assets/loja-jandira.webp",
+    image: "./assets/loja-jandira.webp",
     imageAlt: "Fachada da Avícola Dias em Jandira",
     addressLines: [
       "R. São Bernardo do Campo, 135",

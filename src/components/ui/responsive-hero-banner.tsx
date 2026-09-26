@@ -41,8 +41,8 @@ const defaultNavLinks: readonly NavLink[] = [
 ]
 
 export default function ResponsiveHeroBanner({
-  logoUrl = "/assets/logo-dias.png",
-  backgroundImageUrl = "/assets/hero.jpg",
+  logoUrl = "./assets/logo-dias.png",
+  backgroundImageUrl = "./assets/hero.jpg",
   navLinks = defaultNavLinks,
   ctaButtonText = "Falar com uma loja",
   ctaButtonHref = "#lojas",

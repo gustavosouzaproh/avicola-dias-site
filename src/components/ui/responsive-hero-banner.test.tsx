@@ -24,7 +24,7 @@ describe("ResponsiveHeroBanner", () => {
 
   it("uses the approved local hero assets by default", () => {
     render(<ResponsiveHeroBanner />)
-    expect(screen.getByRole("img", { name: "Avícola Dias" })).toHaveAttribute("src", "/assets/logo-dias.png")
-    expect(screen.getByRole("img", { name: "Aves em área de criação" })).toHaveAttribute("src", "/assets/hero.jpg")
+    expect(screen.getByRole("img", { name: "Avícola Dias" })).toHaveAttribute("src", "./assets/logo-dias.png")
+    expect(screen.getByRole("img", { name: "Aves em área de criação" })).toHaveAttribute("src", "./assets/hero.jpg")
   })
 })

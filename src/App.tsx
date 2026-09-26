@@ -20,8 +20,8 @@ export default function App() {
 
       <main id="conteudo">
         <ResponsiveHeroBanner
-          logoUrl="/assets/logo-dias.png"
-          backgroundImageUrl="/assets/hero.jpg"
+          logoUrl="./assets/logo-dias.png"
+          backgroundImageUrl="./assets/hero.jpg"
           navLinks={navLinks}
           badgeLabel="Avícola Dias"
           badgeText="Jandira e Itapevi"
