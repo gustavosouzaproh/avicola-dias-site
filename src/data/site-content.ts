@@ -101,14 +101,14 @@ export const stores = [
     image: "./assets/loja-itapevi.jpg",
     imageAlt: "Fachada da Avícola Dias em Itapevi",
     addressLines: [
-      "Rod. Engenheiro Renê Benedito da Silva, 2180",
+      "Rua do Peixe, 130",
       "Chácara Santa Cecília, Itapevi - SP",
-      "CEP 06655-240",
+      "CEP 06655-590",
     ],
     phoneDisplay: "(11) 92169-3671",
     phoneHref: "tel:+5511921693671",
     whatsappHref: `https://wa.me/5511921693671?text=${availabilityMessage}`,
-    mapHref: "https://www.google.com/maps/search/?api=1&query=Rod.%20Engenheiro%20Ren%C3%AA%20Benedito%20da%20Silva%2C%202180%2C%20Itapevi%20-%20SP",
+    mapHref: "https://www.google.com/maps/search/?api=1&query=Rua%20do%20Peixe%2C%20130%2C%20Ch%C3%A1cara%20Santa%20Cec%C3%ADlia%2C%20Itapevi%20-%20SP",
   },
   {
     city: "Jandira",
